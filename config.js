@@ -31,6 +31,7 @@ module.exports = {
   etherscanAPIKey: 'GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE',
   tokens: [
     { addr: '0x0000000000000000000000000000000000000000', name: 'ETH', decimals: 18 },
+    { addr: '0xa0fff7cf3507ff6d019caaac6a7b7ed9e69ad536', name: 'ROBBERY', decimals: 18 },
     { addr: '0xd8912c10681d8b21fd3742244f44658dba12264e', name: 'PLU', decimals: 18 },
     { addr: '0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7', name: '1ST', decimals: 18 },
     { addr: '0x936f78b9852d12f5cb93177c1f84fb8513d06263', name: 'GNTW', decimals: 18 },
@@ -118,6 +119,7 @@ module.exports = {
   ],
   defaultPair: { token: 'PLU', base: 'ETH' },
   pairs: [
+    { token: 'ROBBERY', base: 'ETH' },
     { token: 'PLU', base: 'ETH' },
     { token: '1ST', base: 'ETH' },
     { token: 'EDG', base: 'ETH' },
